@@ -50,7 +50,7 @@ public class AnimalDAOImpl implements AnimalDAO{
     }
 
     @Override
-    public boolean decomposeAnimal(long id) {
+    public boolean deleteAnimal(long id) {
         EntityManager entityManager = EntityManagerProvider.getEntityManager();
         entityManager.getTransaction().begin();
         Animal animal = entityManager.find(Animal.class, id);

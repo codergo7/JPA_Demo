@@ -18,7 +18,7 @@ public class AnimalApp {
         //animal.setAge(30);
         //animalDAO.updateAnimal(animal.getId(), animal);
 
-        animalDAO.decomposeAnimal(3);
+        animalDAO.deleteAnimal(3);
 
     }
 }
